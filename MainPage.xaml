@@ -5,16 +5,16 @@
     <ContentPage.Content>
         <StackLayout>
             <Button x:Name="buttonClickTop" 
-                Text="ClickTop" BackgroundColor="Black" TextColor="#181818" FontSize="15"
+                Text="Count++" BackgroundColor="Black" TextColor="Cornsilk" FontSize="15"
                 Clicked="OnButtonPress">
             </Button>
 
             <Label x:Name="textLabel"
-                Text="0000"
+                Text="0"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="CenterAndExpand" />
             <Button x:Name="buttonClick" 
-                Text="Click" BackgroundColor="Cornsilk" TextColor="Black" FontSize="15"
+                Text="Connect" BackgroundColor="Cornsilk" TextColor="Black" FontSize="15"
                 Clicked="OnBottomButtonPress">
             </Button>
 
