@@ -27,7 +27,7 @@ namespace DisplayText
             InitializeComponent();
         }
 
-        private void OnButtonPress(object sender, EventArgs e)
+        private void OnTopButtonPress(object sender, EventArgs e)
         {
             Button button = (Button)sender;
             count = count + 1;
