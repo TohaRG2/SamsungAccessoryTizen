@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <application name="DisplayText">
+    <serviceProfile 
+        id="/tohaman/display_text" 
+        name="MyMessage"
+        role="consumer" 
+        version="1.0">
+      <supportedTransports>
+        <transport type="TRANSPORT_BT"/>
+        <transport type="TRANSPORT_WIFI"/>
+      </supportedTransports>
+      <serviceChannel 
+                id="110"
+                dataRate="low"
+                reliability="enable"
+                priority="low"
+        >
+      </serviceChannel>
+    </serviceProfile>
+  </application>
+</resources>

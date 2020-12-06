@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DisplayText.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name="buttonClickTop" 
+                Text="ClickTop" BackgroundColor="Black" TextColor="#181818" FontSize="15"
+                Clicked="OnButtonPress">
+            </Button>
+
+            <Label x:Name="textLabel"
+                Text="0000"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="buttonClick" 
+                Text="Click" BackgroundColor="Cornsilk" TextColor="Black" FontSize="15"
+                Clicked="OnBottomButtonPress">
+            </Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
